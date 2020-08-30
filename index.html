@@ -14,10 +14,11 @@
     <header>
         <nav>
             <a href="#">Inicio</a>
-            <a href="#">Acerca de Nosotros</a>
-            <a href="#">Productos</a>
-            <a href="#">Nuestros Servicios</a>
-            <a href="#">Contacto</a>
+            <a href="#sobre-nosotros">Acerca de Nosotros</a>
+            <a href="#productos">Productos</a>
+            <a href="#multimedia">Más de nosotros</a>
+            <a href="#servicios">Nuestros Servicios</a>
+            <a href="#contacto">Contacto</a>
         </nav>
         <section class="textos-header">
             <h1>Carrito de Compras Proyecto #1</h1>
@@ -31,7 +32,7 @@
             </svg></div>
     </header>
     <main>
-        <section class="sobre-nosotros">
+        <section class="sobre-nosotros" id="sobre-nosotros">
             <h2 class="titulo">Acerca de nosotros</h2>
             <div class="contenedor-sobre-nosotros">
                 <img src="img/nosotros.svg" alt="" class="imagen-acerca-nosotros">
@@ -47,7 +48,7 @@
                 </div>
             </div>
         </section>
-        <section class="portafolio">
+        <section class="portafolio" id="productos">
             <div class="contenedor">
                 <h2 class="titulo">Productos</h2>
                 <div class="galeria-port">
@@ -110,22 +111,49 @@
                 </div>
             </div>
         </section>
-        <section class="about-services">
+        <section class="Multimedia" id="multimedia">
+            <div class="contenedor">
+                <h2 class="titulo">Más de nosotros</h2>
+                <div class="cards">
+                    <div class="card">
+                        <video src="videos/shopping.mp4" autoplay muted loop></video>
+                        <div class="contenido-texto-card">
+                            <p>Compra de manera fácil todos tus articulos de tecnología.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <video src="videos/ipad.mp4" autoplay muted loop></video>
+                        <div class="contenido-texto-card">
+                            <p>Tenemos gente especializada dando seguimiento a tus compras.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <video src="videos/addCart.mp4" autoplay muted loop></video>
+                        <div class="contenido-texto-card">
+                            <p>Solo agrega al carrito y compra de manera fácil.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+
+        <section class="about-services" id="servicios">
             <div class="contenedor">
                 <div class="titulo">
                     <h2 class="titulo">Nuestros Servicios</h2>
                     <div class="servicio-cont">
                         <div class="servicio-ind">
-                            <img src="img/app.png" alt="">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, quasi.</p>
+                            <img src="img/app.svg" alt="">
+                            <p>Nuestra página web es adaptable a cualquier dispositivo y fácil de usar.</p>
                         </div>
                         <div class="servicio-ind">
-                            <img src="img/coments.png" alt="">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, quasi.</p>
+                            <img src="img/coments.svg" alt="">
+                            <p>Todos hablan de nuestra página y la manera fácil de hacer todas las compras.</p>
                         </div>
                         <div class="servicio-ind">
-                            <img src="img/buzon.png" alt="">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, quasi.</p>
+                            <img src="img/buzon.svg" alt="">
+                            <p>Contamos con servicio a domicilio a cualquier lugar del mundo.</p>
                         </div>
                     </div>
                 </div>
@@ -133,7 +161,7 @@
         </section>
     </main>
     <footer>
-        <div class="contenedor-footer">
+        <div class="contenedor-footer" id="contacto">
             <div class="content-foo">
                 <h4>Phone</h4>
                 <p>78301578</p>
